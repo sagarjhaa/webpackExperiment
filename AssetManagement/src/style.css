@@ -1,10 +1,15 @@
-*{
-  font-size: 50px;
-  margin:auto;
+@font-face{
+  font-family: MyFont;
+  src:url('../TurretRoad-ExtraBold.ttf') format('tff'),
+      url('../TurretRoad-Regular.ttf') format('tff') !important;
+  font-weight: 600;
+  font-size:100px;
 }
 
 .hello{
-  color:red;
+  font-family: MyFont !important;
+  color:#FFF;
+  margin:auto;
 }
 
 body{
